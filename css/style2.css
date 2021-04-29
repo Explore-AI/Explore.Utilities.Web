@@ -1,0 +1,203 @@
+
+
+
+/* new solution page css */
+.new-solution-sec .bnr-dots-btm{bottom: -24px;}
+.new-solution-sec{height: inherit; background: #ceecf6;}
+.solution-sec{padding-top: 115px;}
+.solution-sec .why-choose-row li:nth-child(3){margin-right: 30px;}
+.solution-sec .why-choose-row li:nth-child(4){margin-right: 0;}
+.solution-sec .why-choose-row li:nth-child(8){margin-right: 0;}
+.solution-sec .why-choose-row li:nth-child(12){margin-right: 0;}
+.solution-sec .why-disc{padding: 24px 0 50px 0; border-top: 3px solid #61c3ef; border-radius: 0;}
+.solution-sec .why-disc:hover{box-shadow: none;}
+.solution-sec .why-disc p{font-size: 20px;}
+
+.solution-sec .why-choose-row li { width: calc(100%/4 - 90px/4); margin-right: 30px; margin-bottom: 0;}
+.build-solution-sec h4{text-transform: uppercase;}
+.blue-drop-bg{background: url(../images/blue-drop-bg.png)no-repeat center center;     background-size: contain; width: 100%; height: 100%;}
+
+.design-principles-sec .container{width: 100%; max-width: 1090px; margin: auto; padding: 0 15px;}
+.design-content-box{width: 60%;}
+.design-img-box{width: 40%; text-align: right; padding-left: 50px;}
+.earn-right-box{padding-right: 50px; padding-left: 0;}
+.design-principles-sec .flex{margin-bottom: 40px;}
+.design-principles-sec h3{font-size: 50px; color: #42535c; line-height: 56px; margin-bottom: 5px;}
+.earn-right-box{text-align: left;}
+.earn-right-flex{margin-bottom: 80px !important;}
+.design-principles-sec .awards-title{padding-bottom: 57px;}
+.solution-sec .awards-title p { margin: 0 auto 45px;}
+
+/* new solution page css end*/
+
+
+/* smart water page css */
+.smart-water-banner{padding-top: 113px; background: #e3f5ff;}
+.smart-water-banner .banner-left { padding-top: 228px; }
+.smart-water-banner .bnr-dots-btm{bottom: -24px;}
+.smart-water-banner .banner-right{padding-left: 50px !important;}
+
+.explore-platform-sec h2{max-width: 745px; margin: 0 auto 15px; line-height: 50px;}
+.explore-platform-sec .container{background: #fff;}
+.explore-platform-sec .what-we-owl .what-we-disc img{margin: auto; height:auto;}
+.explore-platform-sec .what-we-owl .item .what-we-disc{text-align: center; padding: 0;}
+.explore-platform-sec .what-we-owl .item .what-we-disc p{max-width: 340px; text-align: center; margin: auto;}
+.explore-platform-sec .what-we-owl .item .what-we-disc h4{text-transform: capitalize;}
+.explore-platform-sec .what-we-owl .item { padding: 0 20px; border-left: 1px solid #c9d9de;}
+.explore-platform-sec .what-we-owl.owl-carousel .owl-nav{padding-top: 50px;}
+.explore-platform-sec .what-we-title{margin-bottom: 68px;}
+
+.business-insights-sec{position: relative;}
+.business-insights-sec:after{content: ""; background: url(../images/business-insights-dots.png) center center no-repeat; background-size: contain; width: 269px; height: 100%; position: absolute; right: 0; top: -150px; z-index: -2;}
+.business-insights-sec .digital-water .digital-left { width: 55%; padding-right: 50px;}
+.business-insights-sec .digital-water .digital-right { width: 45%; }
+.business-insights-sec .digital-water .digital-right ul{margin-top: 50px;}
+
+.scientists-sec .digital-water .digital-left { width: 55%; padding-left: 50px; padding-right: 0;}
+.scientists-sec .digital-water .digital-right { width: 45%; }
+.scientists-sec .digital-dots { left: 60px; top: 30%; right: auto;}
+
+.scientists-sec .digital-water .digital-right ul { margin-top: 0; }
+.single-source-sec .digital-water .digital-right ul { margin-top: 0; }
+.single-source-sec:after{display: none;}
+.single-source-sec .awards-dots {position: absolute; right: 0; left: auto; top: 160px; z-index: -1;}
+.explore-platform-sec .what-we-owl{position: relative;}
+.explore-platform-sec .what-we-owl:before{position: absolute; content: ''; width: 2px; height: 100%; background: #fff; left: 0; z-index: 9;}
+.explore-platform-sec .what-we-owl .item:hover .what-we-disc{box-shadow: none;}
+.explore-platform-sec .what-we-area { padding: 92px 0 40px; }
+.business-insights-sec{padding: 7px 0 42px; }
+.scientists-sec{padding: 7px 0 110px; }
+.single-source-sec{ padding: 7px 0 22px; }
+.remove-complexity-sec{ padding: 7px 0 127px; }
+.smart-water-main .digital-water .digital-right p { margin: 0 0 28px; }
+/* smart water page css end*/
+
+
+/* responsive css */
+@media(max-width: 1680px){
+  /* smart water page css*/
+  .scientists-sec .digital-dots { left: 20px; top: -60px; right: auto; width: 70px;}
+  /* smart water page css end*/
+}
+
+@media(max-width: 1400px){
+  .new-solution-sec .bnr-dots-btm{display: none;}
+  .business-insights-sec:after{display: none;}
+}
+
+@media(max-width: 1199px){
+  .mission-section .client-qt-icon img { width: 45px; height: 45px; }
+  .our-history-sec .what-we-area { padding-bottom: 70px; }
+  .media-sec .why-disc{padding: 30px;}
+
+  /* new solution page responsive css */
+  .new-solution-sec{padding-bottom: 0;}
+  .solution-sec .why-disc { padding-left: 0; padding-right: 0; }
+  .solution-sec .why-choose-row li { width: calc(100%/3 - 81px/3); margin-right: 30px; }
+  /* .solution-sec .why-choose-row li { width: calc(100%/3 - 81px/3); margin-right: 30px; } */
+  .solution-sec .why-choose-row li:nth-child(3) { margin-right: 0; }
+  .solution-sec .why-choose-row li:nth-child(6) { margin-right: 0; }
+  .solution-sec .why-choose-row li:nth-child(9) { margin-right: 0; }
+  .solution-sec .why-choose-row li:nth-child(12) { margin-right: 0; }
+
+  .solution-sec .why-choose-row li:nth-child(4) { margin-right: 30px; }
+  .solution-sec .why-choose-row li:nth-child(8) { margin-right: 30px; }
+  .design-principles-sec h3{font-size: 26px; line-height: 30px;}
+  .design-principles-sec h3 br{display: none;}
+  .solution-sec .why-disc p { font-size: 16px; }
+  .solution-sec .why-choose-row{justify-content: center;}
+  .design-content-box { width: 75%; }
+  .design-img-box{width: 25%;}
+  .solution-sec { padding-top: 50px; }
+  .design-principles-sec .flex { margin-bottom: 80px; }
+
+  /* new solution page responsive css end*/
+
+/* smart-water-page-css */
+  .single-source-sec .awards-dots{display: none;}
+  .smart-water-banner .banner-left h1 span br{display: none;}
+  .scientists-sec .digital-water .digital-left { padding-left: 30px;}
+  .business-insights-sec .digital-water .digital-left {padding-right: 30px; }
+  /* smart-water-page-css end*/
+  .explore-platform-sec .what-we-owl .what-we-disc img{ height:100px;}
+}
+
+@media(max-width: 991px){
+
+
+/* new solution page responsive css*/
+.new-solution-sec {border-bottom-left-radius: 40px;}
+.design-principles-sec .flex{align-items: center;}
+
+
+/* new solution page responsive css end*/
+
+/* smart water page css */
+.smart-water-banner { padding-top: 80px;}
+.smart-water-main .flex{align-items: center;}
+.smart-water-banner .banner-left { padding-top: 0; }
+.scientists-sec { padding: 7px 0 0; }
+.remove-complexity-sec { padding: 7px 0 60px; }
+/* smart water page css end*/
+
+  .explore-platform-sec .what-we-owl .what-we-disc img{ height:70px;}
+
+}
+
+
+
+@media(max-width: 767px){
+	h2 {
+    font-size: 27px;
+    line-height: 33px;
+}
+
+  /* new solution page responsive css*/
+  .solution-sec .why-choose-row li { width: calc(100%/2 - 54px/2); margin-right: 30px; }
+  .solution-sec .why-choose-row li:nth-child(even){margin-right: 0;}
+  .solution-sec .why-choose-row li:nth-child(odd){margin-right: 30px;}
+  .design-content-box { width: 100%; text-align: center;}
+  .design-img-box{width: 20%; order: -1; text-align: center; padding-left: 0; margin: 0 auto 30px;}
+  .earn-right-box { padding-right: 0; padding-left: 0; }
+  .design-principles-sec .flex { margin-bottom: 80px; }
+  .new-solution-sec { padding-bottom: 50px; }
+  .design-principles-sec{padding: 0;}
+  /* new solution page responsive css end*/
+
+  /* smart water page css */
+  .smart-water-banner .banner-right { padding: 0 15px 50px !important; }
+  .smart-water-banner{ padding-top: 21%; }
+  .smart-water-banner .banner-left { padding-top: 0; }
+
+
+  .smart-water-main .digital-water .digital-left, .smart-water-main .digital-water .digital-right{width: 100%;}
+  .smart-water-main .digital-water .digital-left, .smart-water-main .digital-water .digital-right{width: 100%;}
+  .smart-water-main .digital-water .digital-left { padding-right: 0; padding-left: 0; text-align: center; order: -1;}
+  .scientists-sec .digital-dots { left: auto; top: -60px; right: 20px;}
+  /* .business-insights-sec{padding: 7px 0 50px;}  */
+  .smart-water-main .digital-water-sec{padding: 7px 0 50px;}
+/* smart water page css end*/
+
+.explore-platform-sec h2{ line-height:normal;}
+}
+
+@media(max-width: 599px){
+  .explore-platform-sec .what-we-owl .item {border-left: none; }
+}
+
+@media(max-width: 480px){
+  .executive-sec .awards-owl.owl-carousel .owl-nav { top: -200px; }
+  .nav-logo a img { max-width: 227px; }
+  .our-history-right .history-left-img li .inner-img-box { width: 58px; height: 58px; }
+  .our-history-right .history-left-img li .inner-img-box:after{right: -30px; width: 20px;}
+  .our-history-right .history-left-img:before { left: 94px; }
+  .our-history-right .why-disc { padding: 0 0 15px 60px; }
+
+  /* smart water page css*/
+  .smart-water-banner{padding-top: 36%; }
+  /* smart water page css end*/
+}
+
+@media(max-width: 420px){
+  .design-img-box{width: 30%;}
+}

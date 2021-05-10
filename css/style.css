@@ -1106,78 +1106,83 @@ ul{
     padding-bottom: 25px;
 }
 
-/* plateform */
-.plateform-sec{
+/* platform */
+.platform-sec{
     background: #f8f6fb;
 }
-.plateform-sec .banner-left{
+.platform-sec .banner-left{
     padding-top: 176px;
 }
-.plateform-sec .banner-right{
+.platform-sec .banner-right{
     padding-left: 0;
 }
-.plateform-area{
+.platform-area{
     padding: 125px 0 57px;
 }
 .pt-dots{
     bottom: 5px;
 }
-.plateform-area .what-we-title{
+.platform-area .what-we-title{
     margin-bottom: 85px;
 }
-.plateform-exp .plateform-row1{
+.platform-exp .platform-row {
     background: url('../images/what-we-bg.png') center center no-repeat;
     background-size: cover;
     position: relative;
 }
-.plateform-row1{
-    padding-bottom: 114px;
+.platform-row{
+    height: 400px;
 }
-.plateform-row1 .pt-left{
-    width: 59.67%;
+
+.platform-row .container {
+  justify-content: flex-end;
 }
-.plateform-row1 .pt-right{
-    width: 40.33%;
-    padding-top: 32px;
+
+.pt-left, .pt-right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.plateform-row1 .pt-right h2{
+.platform-row .pt-right h2{
     margin-bottom: 18px;
 }
-.plateform-row1 .pt-right h2{
-    margin-bottom: 22px;
-}
-.plateform-row1 .pt-right .list-ul{
+.platform-row .pt-right .list-ul{
     margin-bottom: 36px;
 }
-.plateform-row2{
+.platform-row{
     position: relative;
 }
-.plateform-row2 .pt-left{
-    width: 40.33%;
-    padding-top: 67px;
+.platform-row:nth-child(odd) .pt-left{
+  width: 40.33%;
 }
-.plateform-row2 .pt-left h2{
-    margin-bottom: 18px;
+.platform-row:nth-child(even) .pt-left{
+  width: 59.67%;
 }
-.plateform-row2 .pt-left h2{
-    margin-bottom: 22px;
+.platform-row:nth-child(odd) .pt-right{
+  width: 59.67%;
 }
-.plateform-row2 .pt-left .list-ul{
+.platform-row:nth-child(even) .pt-right{
+  width: 40.33%;
+}
+.platform-row .pt-left .list-ul{
     margin-bottom: 36px;
 }
-.plateform-row2 .pt-right{
-    width: 59.67%;
-    padding-left: 60px;
+.platform-row .image-container {
+  width: 100%;
 }
-.plateform-row2 .pt-right img{
-    width: 100%;
+.platform-row .pt-left .image-container{
+  text-align: start;
+}
+.platform-row .pt-right .image-container{
+    text-align: end;
 }
 .plate-dots {
     position: absolute;
     right: 0;
     bottom: 43px;
 }
-.plateform-row2::before{
+.platform-row::before{
     content: "";
     background: url('../images/waste-dots.png') center center no-repeat;
     background-size: contain;
@@ -1188,7 +1193,7 @@ ul{
     top: 0;
     z-index: -2;
 }
-.plateform-row2::after{
+.platform-row::after{
     content: "";
     background: url('../images/waste-dots2.png') center center no-repeat;
     background-size: contain;
@@ -2385,19 +2390,19 @@ section.home-banner-sec.sub-bnr2 {
         width: 70px;
         top: 67%;
     }
-    .plateform-sec .banner-left{
+    .platform-sec .banner-left{
         padding-top: 0;
     }
-    .plateform-area{
+    .platform-area{
         padding: 40px 0 50px;
     }
-    .plateform-area .what-we-title {
+    .platform-area .what-we-title {
         margin-bottom: 45px;
     }
-    .plateform-row1 .pt-left{
+    .platform-row .pt-left{
         padding-right: 30px;
     }
-    .plateform-row2 .pt-right{
+    .platform-row .pt-right{
         padding-left: 30px;
     }
     .plate-dots{
@@ -2405,10 +2410,10 @@ section.home-banner-sec.sub-bnr2 {
         width: 90px;
         z-index: 5;
     }
-    .plateform-row1 {
+    .platform-row {
         padding-bottom: 90px;
     }
-    .plateform-row2 .pt-left{
+    .platform-row .pt-left{
         padding-top: 32px;
     }
     .training-dots {
@@ -2699,24 +2704,24 @@ section.home-banner-sec.sub-bnr2 {
         line-height: 45px;
         padding: 0 37px;
     }
-    .plateform-inner .list-ul li{
+    .platform-inner .list-ul li{
         font-size: 15px;
         line-height: 24px;
         margin-bottom: 10px;
     }
-    .plateform-row1 .pt-right .list-ul {
+    .platform-row .pt-right .list-ul {
         margin-bottom: 20px;
     }
-    .plateform-row1 {
+    .platform-row {
         padding-bottom: 50px;
     }
     .plate-dots {
         bottom: -80px;
     }
-    .plateform-area .what-we-title {
+    .platform-area .what-we-title {
         margin-bottom: 30px;
     }
-    .plateform-row1 .pt-right, .plateform-row2 .pt-left {
+    .platform-row .pt-right, .platform-row .pt-left {
         padding-top: 0;
     }
     .list-ul li::before{
@@ -3058,28 +3063,28 @@ section.home-banner-sec.sub-bnr2 {
     .get-touch-sec .what-we-title {
         margin-bottom: 43px;
     }
-    .plateform-row1 .pt-left, .plateform-row1 .pt-right, 
-    .plateform-row2 .pt-left, .plateform-row2 .pt-right{
+    .platform-row .pt-left, .platform-row .pt-right, 
+    .platform-row .pt-left, .platform-row .pt-right{
         width: 100%;
     }
-    .plateform-row1 .pt-left{
+    .platform-row .pt-left{
         padding-right: 0;
         padding-bottom: 30px;
     }
-    .plateform-row2 .pt-right{
+    .platform-row .pt-right{
         padding-left: 0;
         padding-bottom: 30px;
     }
-    .plateform-row2 .container{
+    .platform-row .container{
         -webkit-flex-direction: column-reverse;
         -moz-flex-direction: column-reverse;
         -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
     }
-    .plateform-row2::before, .plateform-row2::after{
+    .platform-row::before, .platform-row::after{
         display: none;
     }
-    .plateform-sec .banner-right {
+    .platform-sec .banner-right {
         padding-left: 15px;
     }
     .careers-bnr-sec .banner-left, .careers-bnr-sec .banner-right{
@@ -3156,7 +3161,7 @@ section.home-banner-sec.sub-bnr2 {
         -ms-align-items: initial;
         align-items: initial;
     }
-    .plateform-sec .banner-right {
+    .platform-sec .banner-right {
         padding: 0 0 30px;
     }
     .key-list li{
@@ -3271,7 +3276,7 @@ section.home-banner-sec.sub-bnr2 {
     .capital-list > ul.list-ul {
         margin-right: 0;
     }
-    .plateform-row1 .pt-right h2, .plateform-row2 .pt-left h2{
+    .platform-row .pt-right h2, .platform-row .pt-left h2{
         font-size: 28px;
         margin-bottom: 17px;
     }

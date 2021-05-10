@@ -1088,7 +1088,7 @@ ul{
 
 /* customer-optimisation */
 .customer-opt-sec .capital-efficiency, .field-force-opt .capital-efficiency, 
-.preductive-sec .capital-efficiency, .risk-analysis-sec .capital-efficiency{
+.predictive-sec .capital-efficiency, .risk-analysis-sec .capital-efficiency{
     -webkit-align-items: flex-end;
     -moz-align-items: flex-end;
     -ms-align-items: flex-end;
@@ -1102,7 +1102,7 @@ ul{
     margin-right: -32px;
     position: relative;
 }
-.preductive-sec .capital-right{
+.predictive-sec .capital-right{
     padding-bottom: 25px;
 }
 

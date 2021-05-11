@@ -1645,6 +1645,7 @@ ul{
   }
   .management-section .awards-owl{
     max-width: 1180px;
+    margin: 0 auto;
   }
   .media-sec .why-disc .why-img {
     margin-bottom: 24px;
@@ -3330,9 +3331,6 @@ section.home-banner-sec.sub-bnr2 {
     }
     .management-section{
         padding: 0 0 70px;
-    }
-    .management-section .awards-owl{
-        padding: 0;
     }
     .management-section .awards-owl.owl-carousel .owl-nav{
         position: absolute;

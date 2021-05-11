@@ -1307,6 +1307,21 @@ ul{
     padding: 140px 0 110px;
     position: relative;
 }
+.anything-row p{
+  text-align: center;
+}
+
+.anything-row .contact-list {
+  margin: 0 auto;
+  display: block;
+  width: 50%;
+  list-style: disc;
+}
+
+.anything-row .contact-list li div{
+  margin-bottom: 20px;
+}
+
 .anything-row .why-disc h4{
     text-transform: uppercase;
 }

@@ -267,6 +267,9 @@ ul{
     padding: 11px 2px 22px 42px;
     margin-right: 20px;
 }
+.sub-menu-col .menu-container {
+  margin-bottom: 20px;
+}
 .sub-menu-col:last-child{
     margin-right: 0px;
 }
@@ -2628,6 +2631,9 @@ section.home-banner-sec.sub-bnr2 {
     }
     .navbar .nav-menu .sub-menu.submenu-mb .sub-menu-col{
         padding-left: 24px;
+    }
+    .navbar .nav-menu .sub-menu.submenu-mb .sub-menu-col .menu-container {
+        margin-bottom: 20px;
     }
     .btn{
         font-size: 11px;

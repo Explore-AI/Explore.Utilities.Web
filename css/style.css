@@ -93,6 +93,8 @@ img,
 	border: solid 2px #0d82b7;
 	text-decoration: none;
 }
+.banner-btn .btn {
+}
 .btn:hover {
 	color: #0d82b7;
 	background: #fff;
@@ -316,13 +318,13 @@ ul{
     background: #dff7ff;
     border-bottom-left-radius: 250px;
     position: relative;
-    padding-top: 194px;
+    padding: 160px 0 0px;
     height: 950px;
 }
 .bnr-dots-left{
     position: absolute;
     left: 5px;
-    top: 32%;
+    top: 10%;
     z-index: 10;
 }
 .bnr-dots-btm{
@@ -1680,7 +1682,7 @@ ul{
     bottom: -22px;
 }
 .core-modules-sec{
-    padding: 140px 0 0;
+    padding: 60px 0 0;
     position: relative;
 }
 .core-modules-sec::before{
@@ -1735,7 +1737,7 @@ ul{
     margin: 0 auto 58px;
 }
 .use-it-sec{
-    padding: 87px 0 0;
+    padding: 60px 0 0;
     position: relative;
 }
 .use-it-left ul li{
@@ -1779,7 +1781,7 @@ ul{
     z-index: -2;
 }
 .look-it-sec{
-    padding: 98px 0 0;
+    padding: 60px 0 0;
     position: relative;
 }
 .look-it-sec::after{
@@ -1814,7 +1816,7 @@ ul{
     margin: 0 0 25px;
 }
 .key-users-sec{
-    padding: 80px 0 44px;
+    padding: 60px 0 0;
     position: relative;
 }
 .key-users-sec .what-we-title{
@@ -1882,6 +1884,21 @@ ul{
     max-width: 336px;
     line-height: 24px;
     margin: 0 auto;
+}
+.eap-sec {
+    margin-bottom: 70px;
+}
+.eap-sec .look-left{
+    width: 52%;
+    padding-top: 10px;
+}
+.eap-sec .look-right{
+    width: 48%;
+    padding-left: 109px;
+    padding-top: 20px;
+}
+.eap-sec h3 {
+    margin-bottom: 8px;
 }
 .feature-prod{
     margin-bottom: 98px;

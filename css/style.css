@@ -339,7 +339,7 @@ ul{
     text-transform: uppercase;
 }
 .banner-left h1 span{
-    font-size: 57px;
+    font-size: 50px;
     text-transform: none;
     letter-spacing: -0.030rem;
 }
@@ -1704,7 +1704,7 @@ ul{
     padding-left: 30px;
 }
 .core-img{
-    width: 100px;
+    width: 80px;
 }
 .core-txt{
     width: calc(100% - 100px);
@@ -1722,6 +1722,7 @@ ul{
     flex-wrap: wrap;
     padding-right: 40px;
     margin-bottom: 20px;
+
 }
 .core-txt h4, .use-txt h4{
     text-transform: none;
@@ -1837,6 +1838,9 @@ ul{
     width: calc(100%/3 - 20px);
     margin-right: 20px;
     position: relative;
+}
+#key-list-2{
+    width: calc(100%/2 - 20px);
 }
 .key-list li:last-child{
     margin-right: 0;
